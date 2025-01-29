@@ -1,3 +1,15 @@
+## Version 1.14
+### Fixed
+- The “Access Token Expiry Threshold” defined in the Credential record did not automatically generate a new token upon expiry.
+- The default Execute API Message did not run the NEXT API Function, even when it was defined.
+
+### Improvements
+- Updated the minimum supported BC application version to 24.
+- Masked values are now stored in isolated storage, rather than in the API parameter record.
+- Enhanced tooltips for actions and fields to provide more descriptive information.
+
+<br><br>
+
 ## Version 1.13
 ### Fixed
 - API calls failed when a masked value was used in the request header.
