@@ -1,3 +1,18 @@
+## Version 1.15
+### Improvements
+- Added support for GraphQL payload builder.
+- Masked values are now stored in isolated storage, rather than in the API parameter record.
+- Streamlined the OAuth 2.0 authentication process.
+- Added support for OAuth 2.0 Authorization Code, Client Credentials, Password Credentials, and Refresh Token grant types.
+- Introduced a new interface for automation processing.
+- Added a new action on the API Setup page to register API Engine–related tables in the Retention Policy list.
+
+### New Events
+- OnRequestProcessingOnBuildRequestOnBeforeAttachAuthorizationToWebRequest
+- OnAfterExecuteAPIMessageOnProcessAPIAutomation
+
+<br><br>
+
 ## Version 1.14
 ### Fixed
 - The “Access Token Expiry Threshold” defined in the Credential record did not automatically generate a new token upon expiry.
